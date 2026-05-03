@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.peças {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.peça-1 {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+.peça-2 {
+  width: 10vw;
+  height: 90vh;
+  background-color: pink;
+}
+
+.peça-3 {
+  width: 90vw;
+  height: 80vh;
+  background-color: beige;
+}
+
+.peça-4 {
+  width: 90vw;
+  height: 10vh;
+  background-color: burlywood;
+}
